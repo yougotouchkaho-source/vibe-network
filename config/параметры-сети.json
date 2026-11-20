@@ -1,0 +1,24 @@
+{
+  "chain_name": "Vibe Network",
+  "chain_id": "vibe-1",
+  "evm_chain_id": 777777,
+  "native_coin": {
+    "name": "Vibe Coin",
+    "symbol": "VIBE",
+    "denom": "avibe",
+    "decimals": 18
+  },
+  "initial_supply": "1000000000000000000000000000",
+  "consensus": "Proof of Stake",
+  "block_time_target_seconds": 2,
+  "max_validators": 100,
+  "minting": {
+    "enabled": true,
+    "authority": "0xd6683e2d6c006aa7711cd535df8fca01b8cfd1ec",
+    "uncapped": true
+  },
+  "staking": {
+    "delegation_enabled": true,
+    "minimum_validator_self_bond": "100000000000000000000000"
+  }
+}
